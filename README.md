@@ -32,3 +32,26 @@ $ tree -L 2
     └── poky
 ```
 
+## Baking
+
+### Using CROPS
+```bash
+$ docker run --rm -it -v $HOME/yocto-work/yocto-rpi-env:/workdir crops/poky:debian-11 --workdir=/workdir
+pokyuser@0ff769ddcb0a:/workdir$ ls
+layers
+pokyuser@0ff769ddcb0a:/workdir$ source layers/poky/oe-init-build-env
+```
+
+### Update configuration
+```bash
+# Add the layers you need.
+$ vim conf/bblayers.conf
+# Set the machine you build for.
+$ vim conf/local.conf
+```
+
+### Bake
+```bash
+pokyuser@0ff769ddcb0a:/workdir/build$ bitbake core-image-base
+```
+
