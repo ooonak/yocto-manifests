@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote alias="repo" fetch="https://github.com/openembedded" name="oe"/>
+  <!--<remote alias="repo" fetch="https://git.yoctoproject.org/git" name="yocto"/>-->
+
+  <default sync-j="4"/>
+
+  <!--<project name="meta-openembedded.git" path="layers/meta-openembedded" remote="oe" revision="kirkstone"/>-->
+  <project name="meta-yocto" path="layers/meta-yocto" remote="yocto" revision="kirkstone"/>
+  <!--<project name="openembedded-core.git" path="layers/openembedded-core" remote="oe" revision="kirkstone"/>-->
+</manifest>
