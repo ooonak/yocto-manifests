@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <remote alias="repo" fetch="https://git.yoctoproject.org/git" name="yocto"/>
   <remote alias="repo" fetch="https://github.com/openembedded" name="oe"/>
-  <!--<remote alias="repo" fetch="https://git.yoctoproject.org/git" name="yocto"/>-->
 
   <default sync-j="4"/>
 
