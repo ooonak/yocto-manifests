@@ -5,7 +5,8 @@
 
   <default sync-j="4"/>
 
-  <project name="poky" path="poky" remote="poky" revision="kirkstone"/>
-  <project name="meta-openembedded" path="meta-openembedded" remote="meta-oe" revision="kirkstone"/>
-  <!--<project name="openembedded-core.git" path="layers/openembedded-core" remote="oe" revision="kirkstone"/>-->
+  <project name="poky" path="layers/poky" remote="poky" revision="kirkstone"/>
+  <project name="meta-openembedded" path="layers/meta-openembedded" remote="meta-oe" revision="kirkstone"/>
+  <project name="meta-raspberrypi" path="layers/meta-raspberrypi" remote="poky" revision="kirkstone"/>
+
 </manifest>
