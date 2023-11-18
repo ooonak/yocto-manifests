@@ -12,4 +12,9 @@ $ curl -s https://storage.googleapis.com/git-repo-downloads/repo.asc | gpg --ver
 ```
 
 ## Usage
+```bash
+$ mkdir -p ~/yocto-env && cd ~/yocto-env
+$ repo init -u https://github.com/ooonak/yocto-manifests.git -b main
+$ repo sync 
+```
 
