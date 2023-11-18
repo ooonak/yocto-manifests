@@ -11,7 +11,7 @@
   <project name="meta-openembedded.git" path="layers/meta-openembedded" remote="oe" revision="kirkstone"/>
   <project name="openembedded-core.git" path="layers/openembedded-core" remote="oe" revision="kirkstone"/>
   <project name="meta-raspberrypi" path="layers/meta-raspberrypi" remote="poky" revision="kirkstone"/>
-  <project name="meta-qt6.git" path="layers/meta-qt6" remote="qt6" revision="refs/6.6.1"/>
+  <project name="meta-qt6.git" path="layers/meta-qt6" remote="qt6" revision="v6.6.0"/>
   <project name="meta-fire-up-the-oven" path="layers/meta-fire-up-the-oven" remote="ooonak" revision="main"/>
 
 </manifest>
