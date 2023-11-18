@@ -2,7 +2,7 @@
 <manifest>
   <remote alias="repo" fetch="git://git.yoctoproject.org" name="poky"/>
   <remote alias="repo" fetch="https://github.com/openembedded" name="oe"/>
-  <remote alias="repo" fetch="https://code.qt.io/cgit/yocto" name="qt6"/>
+  <remote alias="repo" fetch="git://code.qt.io/yocto" name="qt6"/>
   <remote alias="repo" fetch="https://github.com/ooonak" name="ooonak"/>
 
   <default sync-j="4"/>
