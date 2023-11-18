@@ -15,6 +15,20 @@ $ curl -s https://storage.googleapis.com/git-repo-downloads/repo.asc | gpg --ver
 ```bash
 $ mkdir -p ~/yocto-env && cd ~/yocto-env
 $ repo init -u https://github.com/ooonak/yocto-manifests.git -b main
-$ repo sync 
+Downloading Repo source from https://gerrit.googlesource.com/git-repo
+...
+repo has been initialized in /home/<user>/yocto-work/yocto-rpi-env
+
+$ repo sync
+Fetching: 100% (2/2), done in 25.448s
+Checking out: 100% (2/2), done in 0.752s
+repo sync has finished successfully.
+
+$ tree -L 2
+.
+└── layers
+    ├── meta-openembedded
+    ├── meta-raspberrypi
+    └── poky
 ```
 
